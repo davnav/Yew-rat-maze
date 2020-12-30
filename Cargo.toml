@@ -1,0 +1,18 @@
+[package]
+name = "Yew-rat-maze"
+version = "0.1.0"
+authors = ["naveen <naveendavisv@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+crate-type = ["cdylib","rlib"]
+
+[dependencies]
+yew="0.17.4"
+wasm-bindgen="0.2.67"
+web-sys = "0.3.46"
+wasm-logger = "0.2.0"
+log = "0.4.6"
+boolinator = "2.4.0"
